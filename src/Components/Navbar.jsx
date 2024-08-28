@@ -58,7 +58,7 @@ const Navbar = (setDarkMode, darkMode) => {
     <div>
       <div className="navbar  mt-6 bg-[#191D28] dark:bg-white">
         <div className="navbar-start">
-          <div className="dropdown">
+          {/* <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const Navbar = (setDarkMode, darkMode) => {
             >
               {navlink}
             </ul>
-          </div>
+          </div> */}
           <Link to={'/'} className=" text-xl">
             <img
               className="w-64"
@@ -113,8 +113,8 @@ const Navbar = (setDarkMode, darkMode) => {
             <option>XRP</option>
             <option>NULS</option>
           </select>
+          <button className="btn  border-accent">BUY USDT </button>
         </div>
-        <button className="btn  border-accent">BUY USDT </button>
         <div className="navbar-end ">
           {/* time section =========================== */}
           <div
@@ -135,7 +135,7 @@ const Navbar = (setDarkMode, darkMode) => {
 
           {/* telegram button  */}
 
-          <button className="bg-[#50c0bc] text-[#dddddd] flex justify-center items-center rounded-xl py-2 px-2 mx-2 gap-2 ">
+          <button className="bg-[#50c0bc] text-[#dddddd] flex justify-center items-center rounded-xl py-2 px-2 mx-2 gap-2 hidden md:flex ">
             <img
               className="w-5 bg-transparent object-contain"
               src={telegram}
