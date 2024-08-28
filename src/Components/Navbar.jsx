@@ -56,7 +56,7 @@ const Navbar = (setDarkMode, darkMode) => {
   );
   return (
     <div>
-      <div className="navbar  mt-6 bg-[#191D28]">
+      <div className="navbar  mt-6 bg-[#191D28] dark:bg-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
