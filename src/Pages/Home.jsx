@@ -15,9 +15,9 @@ const Home = () => {
         </div>
 
         <div className="text-center items-center space-y-3">
-          <span>Best Price to Trade</span>
+          <span className="text-gray-100">Best Price to Trade</span>
           <div className="text-white text-4xl font-semibold">₹ 26,56,110</div>
-          <div className="opacity-50">
+          <div className="opacity-50 text-gray-100">
             Average BTC/INR net price including commission
           </div>
         </div>
@@ -31,6 +31,11 @@ const Home = () => {
         </div>
       </div>
       <Table></Table>
+      <div className="flex justify-center items-center fixed  bottom-0 right-[560px]  p-2 text-center">
+        <button className="btn rounded-none  border-2 border-[#3DC6C1] text-[#3DC6C1]  ">
+          Add hodlinfo to home screen
+        </button>
+      </div>
     </div>
   );
 };
