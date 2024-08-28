@@ -135,7 +135,7 @@ const Navbar = (setDarkMode, darkMode) => {
 
           {/* telegram button  */}
 
-          <button className="bg-[#50c0bc] text-[#dddddd] flex justify-center items-center rounded-xl py-2 px-2 ml-2 gap-2 ">
+          <button className="bg-[#50c0bc] text-[#dddddd] flex justify-center items-center rounded-xl py-2 px-2 mx-2 gap-2 ">
             <img
               className="w-5 bg-transparent object-contain"
               src={telegram}
