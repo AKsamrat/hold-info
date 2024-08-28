@@ -4,7 +4,7 @@ import Table from '../Components/Table';
 const Home = () => {
   return (
     <div className="bg-[#191D28]">
-      <div className="flex justify-between items-center gap-4 mx-11 pt-7">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4 mx-11 pt-7">
         <div>
           <h1 className="text-[#3DC6C1] text-3xl font-semibold">0.1%</h1>
           <p className="text-gray-100 opacity-50">5 Mins</p>

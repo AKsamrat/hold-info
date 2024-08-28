@@ -90,7 +90,7 @@ const Navbar = (setDarkMode, darkMode) => {
             />
           </Link>
         </div>
-        <div className="navbar-center hidden lg:flex ">
+        <div className="navbar-center hidden md:flex ">
           <select className="select select-accent w-full max-w-xs">
             <option disabled selected>
               INR
